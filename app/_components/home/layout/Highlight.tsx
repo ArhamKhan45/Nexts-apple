@@ -1,7 +1,8 @@
+import HighlightClient from "@/client-only/Highlightclient";
 import React from "react";
 
 const HighlightComponent = () => {
-  return <div>Highlight</div>;
+  return <HighlightClient />;
 };
 
 export default HighlightComponent;

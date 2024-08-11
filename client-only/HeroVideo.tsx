@@ -17,16 +17,16 @@ const HeroVideo = () => {
     };
   }, []);
   return (
-    <div className="md:w-10/12 w-9/12 flex-center ">
+    <div className="md:w-10/12 w-9/12  flex-center ">
       <video
-        className=" pointer-events-none "
+        className=" pointer-events-none max-h-[400px] md:max-h-none"
         autoPlay
         muted
         loop
         playsInline={true}
         key={videoSrc}
       >
-        <source src={videoSrc ?? ""} type="video/mp4" />
+        <source src={videoSrc ?? ""} type="video/mp4" className="" />
       </video>
     </div>
   );

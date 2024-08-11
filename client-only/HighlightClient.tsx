@@ -1,5 +1,5 @@
 "use client";
-import VideoCarousel from "@/app/_components/home/carousel/videoCarousel";
+import VideoCarousel from "@/app/_components/home/carousel/VideoCarousel";
 import { rightImg, watchImg } from "@/utils";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";

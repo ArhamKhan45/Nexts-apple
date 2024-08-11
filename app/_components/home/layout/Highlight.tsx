@@ -1,4 +1,4 @@
-import HighlightClient from "@/client-only/Highlightclient";
+import HighlightClient from "@/client-only/HighlightClient";
 import React from "react";
 
 const HighlightComponent = () => {

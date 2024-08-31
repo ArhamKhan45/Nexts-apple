@@ -8,19 +8,16 @@ Getting Started
 To run this project on your local machine, follow these steps:
 
 Clone the Repository
+git clone  https://github.com/ArhamKhan45/nexts-apple.git
 
-Copy code
-git clone <your-repo-url>
 Install Dependencies Navigate to the project directory:
 
 bash
 Copy code
 cd <your-repo-folder>
 Install the necessary packages:
-
-bash
-Copy code
 npm install
+
 Run the Development Server Start the server with:
 
 bash
